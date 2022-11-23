@@ -32,4 +32,4 @@ class TagAdmin(admin.ModelAdmin):
 
 @admin.register(Article)
 class ArticleAdmin(admin.ModelAdmin):
-    inlines = [ScopeInline]
+     inlines = [ScopeInline]
